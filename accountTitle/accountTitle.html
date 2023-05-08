@@ -1,0 +1,15 @@
+<template>
+    <lightning-card  variant="Narrow"  title="Child Component" icon-name="standard:account">
+        <lightning-button-icon  icon-name="utility:down" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+        <div class="slds-p-horizontal_small">
+            <p>Child component slot</p>
+            <slot></slot>
+            <slot></slot>
+            <slot></slot>
+            <slot></slot>
+         <slot name="order"></slot>
+            
+        </div>
+        <div slot="footer">Child Card Footer</div>
+    </lightning-card>
+</template>

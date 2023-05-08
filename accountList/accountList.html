@@ -1,0 +1,13 @@
+<template>
+<lightning-card  variant="Narrow"  title="Parent Component" icon-name="standard:account">
+    <lightning-button-icon  icon-name="utility:down" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+    <div class="slds-p-horizontal_small">
+        <p>Parent Card</p>
+        <c-account-title>
+            <p>I am from Parrent</p>
+            <p slot="order">Naming Order</p>
+        </c-account-title>
+    </div>
+    <div slot="footer">Parent Card Footer</div>
+</lightning-card>
+</template>
